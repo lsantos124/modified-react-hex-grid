@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "author": "Hellenic",
   "repository": "Hellenic/react-hexgrid",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "compile": "babel src/ --out-dir lib",
@@ -30,8 +31,7 @@
     "react-test-renderer": "^15.5.4"
   },
   "dependencies": {
-    "classnames": "^2.2.5",
-    "hexgrid-basic-board": "file:examples/basic-board"
+    "classnames": "^2.2.5"
   },
   "files": [
     "lib/",
